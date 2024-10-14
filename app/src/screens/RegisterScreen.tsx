@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, TextInput, Button, StyleSheet, Text } from 'react-native';
-import { firebase } from '../firebaseConfig'; // Make sure this points to your Firebase config
+import { firebase } from '../config/firebaseConfig'; // Make sure this points to your Firebase config
 
 const RegisterScreen: React.FC = () => {
   const [email, setEmail] = useState<string>('');
